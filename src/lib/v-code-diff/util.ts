@@ -1,6 +1,6 @@
 import { createPatch } from 'diff'
 import * as d2h from 'diff2html'
-import hljs from 'highlight.js'
+import * as hljs from 'highlight.js/lib/core'
 import { SetupContext } from 'vue-demi'
 
 type Props = Readonly<{
